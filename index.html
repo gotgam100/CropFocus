@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CropFocus — 집중을 위한 화면</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7; margin: 0; padding: 0;
+    color: #1c1c1e; background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e5e5e7; background: #1c1c1e; }
+    a { color: #6db3ff; }
+    .feature { background: #2c2c2e; border-color: #3a3a3c; }
+    .btn { background: #2c2c2e; border-color: #3a3a3c; color: #e5e5e7; }
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 72px 24px 80px; }
+  .hero { text-align: center; }
+  .hero h1 { font-size: 2.6rem; margin: 0 0 8px; letter-spacing: -0.5px; }
+  .hero p.tag { font-size: 1.15rem; opacity: 0.75; margin: 0 0 28px; }
+  a { color: #0070f3; }
+  .btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 12px; }
+  .btn { display: inline-block; text-decoration: none; border: 1px solid #e5e5ea; border-radius: 10px; padding: 10px 18px; font-weight: 500; color: #1c1c1e; }
+  .features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 56px 0; }
+  .feature { border: 1px solid #e5e5ea; border-radius: 12px; padding: 18px 20px; }
+  .feature h3 { margin: 0 0 6px; font-size: 1.05rem; }
+  .feature p { margin: 0; opacity: 0.8; font-size: 0.95rem; }
+  @media (max-width: 560px) { .features { grid-template-columns: 1fr; } .hero h1 { font-size: 2.1rem; } }
+  footer { margin-top: 64px; font-size: 0.85rem; opacity: 0.6; text-align: center; }
+  footer a { margin: 0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>CropFocus</h1>
+    <p class="tag">집중을 위한 화면 · Focus on what matters</p>
+    <div class="btns">
+      <a class="btn" href="./support.html">지원 / Support</a>
+      <a class="btn" href="./privacy.html">개인정보 처리방침 / Privacy</a>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <h3>화면 집중 / Spotlight</h3>
+      <p>선택한 영역만 남기고 나머지를 어둡게 가립니다.<br>Dim everything except the region you choose.</p>
+    </div>
+    <div class="feature">
+      <h3>다중 모니터 / Multi‑display</h3>
+      <p>여러 모니터 환경을 그대로 지원합니다.<br>Works across multiple displays.</p>
+    </div>
+    <div class="feature">
+      <h3>전역 단축키 / Global shortcuts</h3>
+      <p>어느 앱에서든 단축키로 즉시 켜고 끕니다.<br>Toggle instantly from any app.</p>
+    </div>
+    <div class="feature">
+      <h3>개인정보 무수집 / No tracking</h3>
+      <p>데이터를 수집하지 않고 모두 로컬에서 동작합니다.<br>Collects no data; everything stays on your Mac.</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 CropFocus. All rights reserved.<br>
+    <a href="./privacy.html">Privacy</a> ·
+    <a href="./support.html">Support</a>
+  </footer>
+</div>
+</body>
+</html>

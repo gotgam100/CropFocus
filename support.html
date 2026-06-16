@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CropFocus · 지원 / Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7; margin: 0; padding: 0;
+    color: #1c1c1e; background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e5e5e7; background: #1c1c1e; }
+    a { color: #6db3ff; }
+    .card { background: #2c2c2e; border-color: #3a3a3c; }
+    kbd { background: #3a3a3c; border-color: #555; color: #eee; }
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  header h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  header p.sub { margin: 0 0 8px; opacity: 0.7; }
+  nav { margin: 24px 0 8px; font-size: 0.95rem; }
+  nav a { margin-right: 16px; text-decoration: none; }
+  a { color: #0070f3; }
+  h2 { font-size: 1.25rem; margin-top: 40px; border-bottom: 1px solid rgba(128,128,128,0.25); padding-bottom: 6px; }
+  h3 { font-size: 1.05rem; margin-top: 24px; }
+  .card { border: 1px solid #e5e5ea; border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+  kbd { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: #f0f0f3; border: 1px solid #d0d0d5; border-radius: 5px; padding: 1px 6px; font-size: 0.85em; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  td, th { text-align: left; padding: 8px 10px; border-bottom: 1px solid rgba(128,128,128,0.2); }
+  footer { margin-top: 56px; font-size: 0.85rem; opacity: 0.6; text-align: center; }
+  .lang-label { display: inline-block; font-size: 0.75rem; letter-spacing: 0.5px; text-transform: uppercase; opacity: 0.55; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>지원 / Support</h1>
+    <p class="sub">CropFocus</p>
+    <nav>
+      <a href="./index.html">홈</a>
+      <a href="./privacy.html">개인정보 처리방침 / Privacy</a>
+    </nav>
+  </header>
+
+  <div class="card">
+    문의 사항이나 버그 제보는 <a href="mailto:qbeck104@gmail.com">qbeck104@gmail.com</a> 으로 보내주세요.<br>
+    For questions or bug reports, email <a href="mailto:qbeck104@gmail.com">qbeck104@gmail.com</a>.
+  </div>
+
+  <h2>CropFocus란? / What is CropFocus?</h2>
+  <p>화면의 특정 영역만 남기고 나머지를 어둡게 가려 집중을 돕는 macOS 메뉴 막대 앱입니다.</p>
+  <p>CropFocus is a macOS menu‑bar app that dims everything except a region you select, helping you focus.</p>
+
+  <h2>단축키 / Shortcuts</h2>
+  <table>
+    <tr><th>동작 / Action</th><th>단축키 / Shortcut</th></tr>
+    <tr><td>영역 선택 시작 / Start area selection</td><td><kbd>⌃⌥⌘F</kbd></td></tr>
+    <tr><td>마스킹 해제 / Clear mask</td><td><kbd>⌃⌥⌘C</kbd> · <kbd>Esc</kbd></td></tr>
+    <tr><td>영역 다시 선택(교체) / Reselect area (replace)</td><td><kbd>⌘</kbd> + 드래그 / drag</td></tr>
+    <tr><td>영역 추가 / Add area</td><td><kbd>⌘⌥</kbd> + 드래그 / drag</td></tr>
+  </table>
+
+  <h2>자주 묻는 질문 / FAQ</h2>
+
+  <h3>단축키가 동작하지 않아요 / Shortcuts don't work</h3>
+  <p>다른 앱이 같은 단축키를 사용 중일 수 있습니다. 해당 앱의 단축키를 변경한 뒤 다시 시도해 주세요.</p>
+  <p>Another app may be using the same shortcut. Change that app's shortcut and try again.</p>
+
+  <h3>마스킹 중에도 메뉴 막대를 보고 싶어요 / Keep the menu bar visible while focusing</h3>
+  <p>설정에서 <em>"포커스 중 메뉴 막대 보기"</em>를 켜면 됩니다.</p>
+  <p>Enable <em>"Show menu bar while focusing"</em> in Settings.</p>
+
+  <h3>로그인 시 자동 실행 / Launch at login</h3>
+  <p>설정에서 <em>"로그인 시 자동 실행"</em>을 체크하세요. (macOS 13 이상)</p>
+  <p>Check <em>"Launch at Login"</em> in Settings. (Requires macOS 13 or later)</p>
+
+  <footer>© 2026 CropFocus. All rights reserved.</footer>
+</div>
+</body>
+</html>
