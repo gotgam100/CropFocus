@@ -60,9 +60,31 @@ final class AppInfoWindowController: NSWindowController {
             root.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
         ])
 
-        // 앱 이름 + 태그라인
-        root.addArrangedSubview(makeLabel("CropFocus", font: .systemFont(ofSize: 18, weight: .semibold)))
-        root.addArrangedSubview(makeLabel(L(.appTagline), secondary: true))
+        // 앱 아이콘 + (이름 / 태그라인)
+        let header = NSStackView()
+        header.orientation = .horizontal
+        header.alignment = .centerY
+        header.spacing = 12
+
+        let iconView = NSImageView()
+        iconView.image = NSApp.applicationIconImage  // 에셋의 AppIcon 사용 (변경 시 자동 반영)
+        iconView.imageScaling = .scaleProportionallyUpOrDown
+        iconView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            iconView.widthAnchor.constraint(equalToConstant: 56),
+            iconView.heightAnchor.constraint(equalToConstant: 56)
+        ])
+        header.addArrangedSubview(iconView)
+
+        let titleStack = NSStackView()
+        titleStack.orientation = .vertical
+        titleStack.alignment = .leading
+        titleStack.spacing = 2
+        titleStack.addArrangedSubview(makeLabel("CropFocus", font: .systemFont(ofSize: 18, weight: .semibold)))
+        titleStack.addArrangedSubview(makeLabel(L(.appTagline), secondary: true))
+        header.addArrangedSubview(titleStack)
+
+        root.addArrangedSubview(header)
 
         // 앱 버전
         let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "?"
