@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Xcode 빌드 산출물 / 사용자 상태
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad
+*.moved-aside
+*.hmap
+*.ipa
+*.xcarchive

@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BEE3247F8849FA898B4F54 /* SelectionWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282E8CDCBA4D4DC59E0A5B91 /* SelectionWindowController.swift */; };
+		17E1717D92C24F7F902EF62F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832BF87D9C4441E9B22A60A1 /* AppDelegate.swift */; };
+		17EFB31C26C840C78932EF20 /* FocusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F553BD8977AD414F8DA6176C /* FocusManager.swift */; };
+		24E51DFFD2DC48589D0214D5 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CC70D77934657B2E2E25B /* SettingsWindowController.swift */; };
+		A1F0C0DE0001000000000001 /* AppInfoWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0C0DE0001000000000002 /* AppInfoWindowController.swift */; };
+		3BEF59FE1FFA4FD1A751D372 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD517122AE4603A3C3D68D /* SelectionView.swift */; };
+		758CF5B6262D45EC94CF79CC /* CropFocus/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE02C1FC40B4F7BBF729F2A /* CropFocus/Assets.xcassets */; };
+		77EF6115973446E1A45C3C8D /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230ED33DE29476195FA77F0 /* Localization.swift */; };
+		8066F57EA75B42DC9CFD536A /* MaskWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B387F6E2A95B4FACA4B885DD /* MaskWindowController.swift */; };
+		8CF44511DAF8471EBAFDF4FE /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46AFDB9A9B41C5B4BCC2CE /* StatusBarController.swift */; };
+		9D85B2E1A4E94A93936F6E73 /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2EF5A6BB84C30ADC9D0ED /* MaskView.swift */; };
+		9E030A015B48434E987C6AAF /* HotKeyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0CB378A3A4D39A0673E24 /* HotKeyMonitor.swift */; };
+		C3825393315946F9B8CF6F9A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7181D7B649442149A485533 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0307E6306ADA4EFD8F90874C /* CropFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E46AFDB9A9B41C5B4BCC2CE /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		1A6EA5CB1F54478F8DC6BC40 /* CropFocus/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CropFocus/Info.plist; sourceTree = "<group>"; };
+		282E8CDCBA4D4DC59E0A5B91 /* SelectionWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionWindowController.swift; sourceTree = "<group>"; };
+		2DF2EF5A6BB84C30ADC9D0ED /* MaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
+		64BD517122AE4603A3C3D68D /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		832BF87D9C4441E9B22A60A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EE0CB378A3A4D39A0673E24 /* HotKeyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyMonitor.swift; sourceTree = "<group>"; };
+		9AE02C1FC40B4F7BBF729F2A /* CropFocus/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CropFocus/Assets.xcassets; sourceTree = "<group>"; };
+		B387F6E2A95B4FACA4B885DD /* MaskWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskWindowController.swift; sourceTree = "<group>"; };
+		D7181D7B649442149A485533 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E11CC70D77934657B2E2E25B /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		A1F0C0DE0001000000000002 /* AppInfoWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoWindowController.swift; sourceTree = "<group>"; };
+		E230ED33DE29476195FA77F0 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		F553BD8977AD414F8DA6176C /* FocusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5B5E8755714391B316FC99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CA8720D8814DFDA9FB213F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0307E6306ADA4EFD8F90874C /* CropFocus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88665819DFF54B94A8D85DC0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D7181D7B649442149A485533 /* main.swift */,
+				832BF87D9C4441E9B22A60A1 /* AppDelegate.swift */,
+				0E46AFDB9A9B41C5B4BCC2CE /* StatusBarController.swift */,
+				F553BD8977AD414F8DA6176C /* FocusManager.swift */,
+				282E8CDCBA4D4DC59E0A5B91 /* SelectionWindowController.swift */,
+				64BD517122AE4603A3C3D68D /* SelectionView.swift */,
+				B387F6E2A95B4FACA4B885DD /* MaskWindowController.swift */,
+				2DF2EF5A6BB84C30ADC9D0ED /* MaskView.swift */,
+				8EE0CB378A3A4D39A0673E24 /* HotKeyMonitor.swift */,
+				E11CC70D77934657B2E2E25B /* SettingsWindowController.swift */,
+				A1F0C0DE0001000000000002 /* AppInfoWindowController.swift */,
+				E230ED33DE29476195FA77F0 /* Localization.swift */,
+			);
+			name = Sources;
+			path = CropFocus;
+			sourceTree = "<group>";
+		};
+		FD9F9DD391DC4A4C979FB385 = {
+			isa = PBXGroup;
+			children = (
+				88665819DFF54B94A8D85DC0 /* Sources */,
+				9AE02C1FC40B4F7BBF729F2A /* CropFocus/Assets.xcassets */,
+				1A6EA5CB1F54478F8DC6BC40 /* CropFocus/Info.plist */,
+				05CA8720D8814DFDA9FB213F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C5F18261FB43F98C677B28 /* CropFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF1AA61C8184E5D98E6884B /* Build configuration list for PBXNativeTarget "CropFocus" */;
+			buildPhases = (
+				EE3C6A39647C44CDABB48008 /* Sources */,
+				9C5B5E8755714391B316FC99 /* Frameworks */,
+				38E34FFC05854EE1B330B740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropFocus;
+			productName = CropFocus;
+			productReference = 0307E6306ADA4EFD8F90874C /* CropFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669ED42A0C934B9F8CA60680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					F5C5F18261FB43F98C677B28 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F4CCC700E4984E7093BF5477 /* Build configuration list for PBXProject "CropFocus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD9F9DD391DC4A4C979FB385;
+			productRefGroup = 05CA8720D8814DFDA9FB213F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C5F18261FB43F98C677B28 /* CropFocus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E34FFC05854EE1B330B740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758CF5B6262D45EC94CF79CC /* CropFocus/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3C6A39647C44CDABB48008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3825393315946F9B8CF6F9A /* main.swift in Sources */,
+				17E1717D92C24F7F902EF62F /* AppDelegate.swift in Sources */,
+				8CF44511DAF8471EBAFDF4FE /* StatusBarController.swift in Sources */,
+				17EFB31C26C840C78932EF20 /* FocusManager.swift in Sources */,
+				08BEE3247F8849FA898B4F54 /* SelectionWindowController.swift in Sources */,
+				3BEF59FE1FFA4FD1A751D372 /* SelectionView.swift in Sources */,
+				8066F57EA75B42DC9CFD536A /* MaskWindowController.swift in Sources */,
+				9D85B2E1A4E94A93936F6E73 /* MaskView.swift in Sources */,
+				9E030A015B48434E987C6AAF /* HotKeyMonitor.swift in Sources */,
+				24E51DFFD2DC48589D0214D5 /* SettingsWindowController.swift in Sources */,
+				A1F0C0DE0001000000000001 /* AppInfoWindowController.swift in Sources */,
+				77EF6115973446E1A45C3C8D /* Localization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2312FB696A8F4D38B491F31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CropFocus/CropFocus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CropFocus/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baekmac.CropFocus;
+				PRODUCT_NAME = CropFocus;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5320CCD0E1834ED69C3893A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CropFocus/CropFocus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CropFocus/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baekmac.CropFocus;
+				PRODUCT_NAME = CropFocus;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A174B7E91548483C84538626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SB2Z6HL579;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C031BB96D4B34EEC9BEB3AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SB2Z6HL579;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF1AA61C8184E5D98E6884B /* Build configuration list for PBXNativeTarget "CropFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2312FB696A8F4D38B491F31E /* Debug */,
+				5320CCD0E1834ED69C3893A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CCC700E4984E7093BF5477 /* Build configuration list for PBXProject "CropFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C031BB96D4B34EEC9BEB3AC9 /* Debug */,
+				A174B7E91548483C84538626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 669ED42A0C934B9F8CA60680 /* Project object */;
+}
